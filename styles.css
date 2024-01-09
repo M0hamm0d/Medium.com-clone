@@ -17,8 +17,6 @@ body{
     align-items: center;
     font-family: myFont;
 }
-nav{
-}
 header{
     border-bottom: 1px solid black;
     align-items: start;
@@ -85,7 +83,6 @@ header .Logo svg{
 }
 .main-1 div span{
     font-size: 24px;
-    with: 440px;
     margin-bottom: 50px;
     line-height: 25px;
 }
@@ -177,12 +174,10 @@ header .Logo svg{
 .main-3 section{
     display: flex;
     align-items: flex-start;
-    flx: 1;
 }
 .main-3 .section-one{
     display: flex;
     flex-direction: column;
-    flx: 1;
 }
 .News{
     display: flex;
@@ -295,7 +290,6 @@ header .Logo svg{
     background-color: white;
     border: 1px solid #f2f2f2;
     width: 240px;
-    z-ndex: 999;
     pointer-events: none;
     padding: 24px;
     border-radius: 3px;
@@ -405,7 +399,6 @@ aside{
 .footer{
     display: flex;
     flex-direction: column;
-    marin: 0px 24px;
     padding: 24px 24px;
     background-color: black;
 }
@@ -714,9 +707,6 @@ aside{
     .main-3 section{
         margin: 0px;
         flex: 3;
-    }
-    .News{
-        widt: 576px;
     }
     .tt{
         display: flex;
